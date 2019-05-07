@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>The Grand::Contact</title>
+    <link rel="stylesheet" href="css/demo.css" type="text/css" />
+    <link rel="stylesheet" href="css/contact.css" type="text/css" />
+    <script>
+        function myFunction() {
+            document.getElementById("contact_heading").style.display = "block";
+            document.getElementById("sendenquiry").style.display = "block";
+
+        }
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="main">
+            
+            <div class="header">
+                <div class="logo">
+                    <h1><a href="demo.html">The Grand<small>A Different Feel</small></a></h1>
+                </div>
+
+                <!--Navigation Menu-->
+                <div class="menu_nav">
+                    <ul>
+                        <li><a href="demo.html">Home</a></li>
+                        <li><a href="stay.html">Stay</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="clr"></div>
+
+            <!-- Image-->
+            <div class="display_image">
+                <a href="#"><img src="images/contactus.jpg" alt="The Grand- Contact Us" style="height:auto" /></a>
+                <div class="contact_container">
+                    <div class="contact_heading">We remain at your disposal at The Grand</div> 
+                    <p>Should you require more information about The LaLiT Hotels or would like to arrange hotel bookings at any of our luxury resorts and hotels, please do not hesitate to contact us.
+                    </p>
+                </div>
+            </div>
+            <div class="clr"></div>
+            
+
+            <div class="content">
+                <div class="contact_us"></div>
+                    <div class="contact_info">
+                        <h1>Hotel Contact Information</h1>
+                        <h2>The Grand Italy</h2>
+                        <h3>Barakhamba Avenue Connaught Place Italy-110001</h3>
+                        <h3 style="font-weight:bold;">+32 11 4444 7777</h3>
+                        <a href="mailto:frontoffice@thegrand.com">frontoffice@thegrand.com</a>
+                    </div>
+                    <div class="button_pos">
+                        <button onclick="myFunction()" >Contact Us</button>
+
+                    </div>
+
+                    <div id="contact_heading" style="display:none;">Contact Us</div>
+
+                    <form action="#" method="post" id="sendenquiry" style="display:none;">
+                        <div class="contact_form">
+                            
+                            <ul>
+                                <li>
+                                    <label for="name">Name *</label>
+                                    <input id="name" name="name" class="text" required="required" />
+                                </li>
+                                <li>
+                                    <label for="email">Email Address *</label>
+                                    <input id="email" name="email" class="text" required="required" />
+                                </li>
+                                <li>
+                                    <label for="phone">Phone Number  </label>
+                                    <input id="phone" name="phone" class="text" />
+                                </li>
+                                <li>
+                                    <label for="message">How can we help?</label>
+                                    <textarea id="message" name="message" rows="8" cols="50" class="text"></textarea>
+                                </li>
+                                <li>
+                                    <input type="submit" value="SUBMIT ENQUIRY" />
+                                    <div class="clr"></div>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </form>
+ 
+
+                <div class="clr"></div>
+            </div>
+
+            <div class="awards">
+                <h2>Awards</h2>
+                <div class="clr"></div>
+                <ul class="awards_list">
+                    <li><img src="awards/award0.png" width="80" height="80" alt=""/></li>
+                    <li><img src="awards/award4.png" width="80" height="80" alt=""/></li>
+                    <li><img src="awards/award1.png" width="80" height="80" alt=""/></li>
+                    <li><img src="awards/award2.png" width="80" height="80" alt=""/></li>
+                    <li><img src="awards/award7.png" width="80" height="80" alt=""/></li>
+                </ul>
+                <div class="clr"></div>
+
+            </div>
+            
+            <div class="footer">
+                <div class="copyright">
+                    <p>Copyright &copy; 2017 The Grand. All rights reserved.</p>
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
+</body>
+</html>

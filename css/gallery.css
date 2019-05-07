@@ -1,0 +1,27 @@
+﻿/*.display_image{
+    height: 500px;
+    overflow:hidden;
+}*/
+.gallery_intro{
+    width:80%;
+    margin:0 auto;
+    text-align:center;
+}
+.gallery_intro h1, .gallery_div h1{
+    text-align: center;
+    padding: 1.5em 0 0.2em;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: normal;
+}    
+.gallery_intro p{
+    color: rgba(68, 67, 67, 0.80);
+    line-height:2em;
+
+}
+.gallery{
+    float:left;
+    margin: 1%;
+    text-align:center;
+    border: 1px solid rgba(103, 101, 101, 0.47);
+}

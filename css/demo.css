@@ -1,0 +1,174 @@
+﻿body
+{   background-color: lightgrey;
+    margin:0; 
+    padding:0;
+    width:100%;
+    color:black;
+    font:normal 12px/1.5em "Liberation sans", Arial, Helvetica, sans-serif;
+    background:#fff repeat-x left top;
+}
+.wrapper{
+    width:70%;
+    margin: 0 auto 0 auto;
+    padding:0;
+    background: rgba(0,0,0,0.15);
+}
+.clr{
+    clear:both;
+    line-height:0;
+    font-size:0;
+    width:100%;
+}
+.header{
+    margin: 0 auto;
+    padding: 0 0 32px;
+    width: 90%; /*relative to wrapper or set to width: 960px;*/
+}
+.logo{
+    float:left;
+    margin:0;
+    padding:0;
+    /*width: auto; height: 220px;*/
+
+}
+                              
+.logo h1{
+    margin: 0;
+    padding: 50px 0;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: left;
+    line-height: 1.2em;
+
+}
+.logo h1 a, .logo h1 a:hover, .logo h1 a:active{
+    text-decoration: none;
+
+}
+
+.logo h1 small{
+    display: block;
+    margin:0;
+    font-size: 14px;
+    line-height: 1.2em;
+}
+.menu_nav{
+    padding: 70px 0 0;
+    float: right;
+    
+}
+.menu_nav ul{
+    
+    list-style-type: none;
+}
+.menu_nav ul li{
+    
+    float: left;
+    background: url(../images/menu_split.png) no-repeat left center;
+}
+.menu_nav ul li a{
+    margin:0;
+    display: block;
+    font-size: 15px;
+    text-decoration:none;
+    font-weight:normal;
+    text-transform: uppercase;
+    padding: 8px 20px 5px;
+    color:black;
+} 
+.menu_nav ul li a:hover{
+    background-color: rgba(0,0,0,0.15);
+}
+
+.display_image img{
+    width:100%;
+    height:500px;
+}
+.display_image span{
+    display: block;
+    text-transform:capitalize;
+    font-weight:bold;
+    padding: 5px 0 2px;
+}
+.content {
+    margin:0 auto;
+    padding:0 0 32px;
+    width: 90%;
+}
+.article {
+    display:inline-block;
+    width: 60%;
+    float:left;
+}
+.article h2{
+    margin-bottom:0;
+    padding-bottom:0;
+    font-size: 28px;
+    font-weight:normal;
+    line-height: 1em;
+}
+.article p{
+    line-height: 1.7em;
+    color:rgba(68, 67, 67, 0.80)
+}
+
+.sidebar{
+    width:30%;
+    float:right;
+}
+.sidebar h2{
+    margin-bottom:0;
+    padding-bottom:0;
+    font-size: 25px;
+    font-weight:normal;
+    line-height: 1em;
+    text-indent: -20px;
+}
+.sidebar ul{
+    margin-left: 0;
+    padding:0;
+}
+.sidebar ul li{
+    color:rgba(68, 67, 67, 0.80);
+}
+.sidebar ul li span{
+    display:block;
+    text-decoration: underline;
+    color:black;
+}
+.awards{
+    margin:0 auto;
+    padding:1em 0 16px;
+    width: 90%;
+}
+
+.awards h2{
+    padding-bottom: 10px;
+    font-size: 28px;
+    font-weight: normal;
+    text-align:center;
+}
+.awards_list{
+    width:52em;
+    margin:0 auto;
+}
+.awards ul {
+    list-style-type:none; 
+    padding:0;
+    
+}
+.awards ul li{
+    display: inline;
+    padding: 0 20px;
+}
+
+.footer{
+    border-top: 1px solid rgba(61, 60, 60, 0.22);
+    margin: 0px;
+    padding: 10px 0;
+}
+.copyright{
+    text-align:center;
+
+}

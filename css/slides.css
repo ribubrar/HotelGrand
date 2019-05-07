@@ -1,0 +1,36 @@
+﻿.s-display-container{
+    height: 500px;
+    overflow:hidden;
+}
+.s-black {
+    background-color: black;
+    color:white;
+    font-weight:bold;
+}
+
+.s-button {
+    border:none;
+    display:inline-block;
+    padding: 8px 16px;
+    vertical-align : middle;
+    overflow: hidden;
+    text-decoration:none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.s-button:hover {
+    color: #000;
+    background-color: #ccc;
+}
+.s-display-left {
+    position: absolute;
+    top: 55%;
+    left: 15%;
+}
+.s-display-right {
+    position:  absolute;
+    top: 55%;
+    right: 15%;
+
+}

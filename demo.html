@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>The Grand::Home</title>
+    <link rel="stylesheet" href="css/demo.css" type="text/css" />
+    <link rel="stylesheet" href="css/slides.css" type="text/css" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="main">
+            
+            <div class="header">
+                <div class="logo">
+                    <h1><a href="demo.html">The Grand<small>A Different Feel</small></a></h1>
+                </div>
+
+                <!--Navigation Menu-->
+                <div class="menu_nav">
+                    <ul>
+                        <li><a href="demo.html">Home</a></li>
+                        <li><a href="stay.html">Stay</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="clr"></div>
+
+            <!--Spa Image-->
+            <div class="display_image" style="color:rgba(68, 67, 67, 0.80);">
+                <div class="s-content s-display-container">
+                    <img class="mySlides" src="gallery/swimming_pool.jpg" style="height: 100%;" />
+                    <img class="mySlides" src="gallery/Luxury_Room2.jpg" style="height: 100%;" />
+                    <img class="mySlides" src="gallery/CYSTALBALL-ROOM.jpg" style="height: 100%;" />
+                    <img class="mySlides" src="gallery/Night-Club.jpg" style="height: 100%;" />
+
+                    <button class="s-button s-black s-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                    <button class="s-button s-black s-display-right" onclick="plusDivs(1)">&#10095;</button>
+                </div>
+
+                <script>
+                    var slideIndex = 1;
+                    showDivs(slideIndex);
+
+                    function plusDivs(n) {
+                        showDivs(slideIndex += n);
+                    }
+
+                    function showDivs(n) {
+                        var i;
+                        var x = document.getElementsByClassName("mySlides");
+                        if (n > x.length) { slideIndex = 1 }
+                        if (n < 1) { slideIndex = x.length }
+                        for (i = 0; i < x.length; i++) {
+                            x[i].style.display = "none";
+                        }
+                        x[slideIndex - 1].style.display = "block";
+                    }
+                </script>
+                <!--<span style="color:black;">The secrets of beauty</span> 
+                Discover a sanctuary of pure bliss and tranquility when you visit The Grand- Spa signature. The Grand- spa signature offers a contemporary range of both East and West spa favorites. The secrets of the Asian beauty are unveiled in an exquisite range of spa delights that is supported.-->
+            </div>
+
+            <div class="clr"></div>
+            
+
+            <div class="content" style="padding-top : 1em;">
+                <!--Article in content section-->
+                <div class="article">
+                    <h2 class="article_head">This is The Grand... Past, Present, Perfect.</h2> 
+                    <div class="clr"></div>
+                    <p class= "article_para" >"If there is a single word more alluring than Italy, then it must be its own heart and soul… Tuscany. Always so much more than a place, Tuscany, Italy is first a way of life, each present moment infused with centuries of the world’s favorite art, culture, food and wine. In the rolling hills not far from the mythic cities of Florence, Siena and San Gimignano is one of the largest private landholdings in all of Italy. Vineyards and orchards of olive trees pattern the hillsides. Two grand cypress-lined lanes ascend to an historic castle now open as a 41-suite boutique hotel. Dotting the 4,200-acre historic estate are restored Farmhouse Villas each with dramatic glass-tiled private pools. This treasured property is Castello di Casole - A Timbers Resort, and the most romantic addition to our portfolio. We invite you to be a part of it."</p> 
+                    
+                </div>
+
+                <!--Sidebar in content section-->
+                <div class="sidebar">
+                    <h2>Special Offers</h2>
+                    <ul>
+                        <li><span>10% instant Cashback</span>
+                        10% instant cashback on booking the rooms online through bookers.com</li>
+                        <li><span>Free lunch for 2 or more nights</span>
+                        If you are staying in the hotel for 2 
+                        or more nights, you get free lunch</li>
+                        <li><span>30% off on booking 3+ rooms.</span>
+                        Booking over 3 rooms? You are eligible to recieve direct 30% off over your bookings.</li>
+                    </ul>
+                    
+                </div>
+                <div class="clr"></div>
+            </div>
+
+            <div class="awards">
+                <h2>Awards</h2>
+                <div class="clr"></div>
+                <ul class="awards_list">
+                    <li><img src="awards/award0.png" width="80" height="80" alt=""/></li>
+                    <li><img src="awards/award4.png" width="80" height="80" alt=""/></li>
+                    <li><img src="awards/award1.png" width="80" height="80" alt=""/></li>
+                    <li><img src="awards/award2.png" width="80" height="80" alt=""/></li>
+                    <li><img src="awards/award7.png" width="80" height="80" alt=""/></li>
+                </ul>
+                <div class="clr"></div>
+
+            </div>
+            
+            <div class="footer">
+                <div class="copyright">
+                    <p>Copyright &copy; 2017 The Grand. All rights reserved.</p>
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
+</body>
+</html>

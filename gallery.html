@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>The Grand::Gallery</title>
+    <link rel="stylesheet" href="css/demo.css" type="text/css" />
+    <link rel="stylesheet" href="css/gallery.css" type="text/css" />
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="main">
+            
+            <div class="header">
+                <div class="logo">
+                    <h1><a href="demo.html">The Grand<small>A Different Feel</small></a></h1>
+                </div>
+
+                <!--Navigation Menu-->
+                <div class="menu_nav">
+                    <ul>
+                        <li><a href="demo.html">Home</a></li>
+                        <li><a href="stay.html">Stay</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="clr"></div>
+
+            <div class="display_image">
+                <div class="s-content s-display-container">
+                    <img class="mySlides" src="gallery/swimming_pool.jpg" />
+                    <img class="mySlides" src="gallery/Luxury_Room2.jpg" />
+                    <img class="mySlides" src="gallery/CYSTALBALL-ROOM.jpg" />
+                    <img class="mySlides" src="gallery/Night-Club.jpg" />
+                    <img class="mySlides" src="gallery/Grand_Luxury_room.jpg" />
+                </div>
+                
+                <script>
+                    var myIndex = 0;
+                    carousel();
+
+                    function carousel() {
+                        var i;
+                        var x = document.getElementsByClassName("mySlides");
+                        for (i = 0; i < x.length; i++) {
+                            x[i].style.display = "none";
+                        }
+                        myIndex++;
+                        if (myIndex > x.length) { myIndex = 1 }
+                        x[myIndex - 1].style.display = "block";
+                        setTimeout(carousel, 2000); // Change image every 2 seconds
+                    }
+                </script>
+            </div>
+
+            <div class="gallery_container">
+                <div class="gallery_intro">
+                    <h1>Discover The Grand 5 Star Hotel</h1>
+
+                    <p> The Grand Hotel, the premier 5 Star hotel in Italy, through the photographs in our image gallery. <br />
+
+                        View photos of our beautifully appointed accommodations, amenities, and event venues, and discover why we are one of the finest deluxe hotels in Delhi.
+
+                    </p>
+                </div>
+                                
+                <div class="gallery_div">
+
+                    <div class="responsive">
+                        <div class="gallery">
+                            <a target="_blank" href="luxury_room1.jpg">
+                                <img src="gallery/luxury_room1.jpg" alt="Luxury Room" width="300" height="200" />
+                            </a>
+                            <div class="desc">Luxury Room</div>
+                        </div>
+                    </div>
+
+                    <div class="responsive">
+                        <div class="gallery">
+                            <a target="_blank" href="premier_room1.jpg">
+                                <img src="gallery/premier_room1.jpg" alt="Premier Room.jpg" width="300" height="200" />
+                            </a>
+                            <div class="desc">Premier Room</div>
+                        </div>
+                    </div>
+
+                    <div class="responsive">
+                        <div class="gallery">
+                            <a target="_blank" href="CYSTALBALL-ROOM.jpg">
+                                <img src="gallery/CYSTALBALL-ROOM.jpg" alt="Crystal Ball Room" width="300" height="200" />
+                            </a>
+                            <div class="desc">Crystal Ball Room</div>
+                        </div>
+                    </div>
+
+                    <div class="responsive">
+                        <div class="gallery">
+                            <a target="_blank" href="executiveclub_room1.jpg">
+                                <img src="gallery/executiveclub_room1.jpg" alt="Executive Club Room" width="300" height="200" />
+                            </a>
+                            <div class="desc">Executive Club Room</div>
+                        </div>
+                    </div>
+
+                    <div class="responsive">
+                        <div class="gallery">
+                            <a target="_blank" href="Grand_Luxury_room.jpg">
+                                <img src="gallery/Grand_Luxury_room.jpg" alt="Grand Luxury Room" width="300" height="200" />
+                            </a>
+                            <div class="desc">Grand Luxury Room</div>
+                        </div>
+                    </div>
+
+                    <div class="responsive">
+                        <div class="gallery">
+                            <a target="_blank" href="Kitty-Su.jpg">
+                                <img src="gallery/Kitty-Su.jpg" alt="Kitty Su" width="300" height="200" />
+                            </a>
+                            <div class="desc">Kitty Su</div>
+                        </div>
+                    </div>
+
+                    <div class="responsive">
+                        <div class="gallery">
+                            <a target="_blank" href="Lobby.jpg">
+                                <img src="gallery/Lobby.jpg" alt="Lobby" width="300" height="200" />
+                            </a>
+                            <div class="desc">Lobby</div>
+                        </div>
+                    </div>
+
+                    <div class="responsive">
+                        <div class="gallery">
+                            <a target="_blank" href="Night-Club.jpg">
+                                <img src="gallery/Night-Club.jpg" alt="Night Club" width="300" height="200" />
+                            </a>
+                            <div class="desc">Night Club</div>
+                        </div>
+                    </div>
+
+                    <div class="responsive">
+                        <div class="gallery">
+                            <a target="_blank" href="swimming_pool.jpg">
+                                <img src="gallery/swimming_pool.jpg" alt="Swimming Pool" width="300" height="200" />
+                            </a>
+                            <div class="desc">Swimming Pool</div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="clr"></div>
+
+            </div>              
+                        
+            
+            
+            <div class="awards">
+                <h2>Awards</h2>
+                <div class="clr"></div>
+                <ul class="awards_list">
+                    <li><img src="awards/award0.png" width="80" height="80" alt=""/></li>
+                    <li><img src="awards/award4.png" width="80" height="80" alt=""/></li>
+                    <li><img src="awards/award1.png" width="80" height="80" alt=""/></li>
+                    <li><img src="awards/award2.png" width="80" height="80" alt=""/></li>
+                    <li><img src="awards/award7.png" width="80" height="80" alt=""/></li>
+                </ul>
+                <div class="clr"></div>
+
+            </div>
+            
+            <div class="footer">
+                <div class="copyright">
+                    <p>Copyright &copy; 2017 The Grand. All rights reserved.</p>
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
+</body>
+</html>
